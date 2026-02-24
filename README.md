@@ -75,3 +75,34 @@ Each student has unique marks and attendance records linked via foreign keys.
 
 ## 📁 Project Structure
 
+```text
+student-portal/
+│
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── students.db
+│   └── __pycache__/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── StudentDetails.js
+│   │   │   ├── Marks.js
+│   │   │   └── Attendance.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── App.css
+│   │
+│   ├── package.json
+│   └── node_modules/
+│
+├── .gitignore
+└── README.md
+```
