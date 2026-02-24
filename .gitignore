@@ -21,3 +21,18 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Python
+__pycache__/
+*.pyc
+students.db
+venv/
+
+# React
+node_modules/
+build/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
